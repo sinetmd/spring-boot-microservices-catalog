@@ -26,6 +26,8 @@ jobs:
           java-version: '21'
           distribution: 'temurin'
           cache: 'maven'
-      - name: Build wiht Maven
+      - name: Run Chmod
+        run: chmod +x ./mvnw
+      - name: Build with Maven
         run: ./mvnw -ntp verify
 
