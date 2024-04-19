@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="History">
+    <option name="requestHistoryStates">
+      <list>
+        <requestHistoryState>
+          <option name="dateTime" value="1713344438562" />
+          <option name="id" value="5aa6b68c-aa7a-45e6-8234-1feff13528d2" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/105" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI0LTA0LTE3VDA5OjAwOjM4LjUyNiswMDowMCIsInN0YXR1cyI6NTAwLCJlcnJvciI6IkludGVybmFsIFNlcnZlciBFcnJvciIsInRyYWNlIjoiY29tLm1ybi5jYXRhbG9nc2VydmljZS5kb21haW4uUHJvZHVjdE5vdEZvdW5kRXhjZXB0aW9uOiBQcm9kdWN0IHdpdGggY29kZSAxMDUgbm90IGZvdW5kXHJcblx0YXQgY29tLm1ybi5jYXRhbG9nc2VydmljZS5kb21haW4uUHJvZHVjdE5vdEZvdW5kRXhjZXB0aW9uLmZvckNvZGUoUHJvZHVjdE5vdEZvdW5kRXhjZXB0aW9uLmphdmE6OSlcclxuXHRhdCBjb20ubXJuLmNhdGFsb2dzZXJ2aWNlLndlYi5jb250cm9sbGVycy5Qcm9kdWN0Q29udHJvbGxlci5sYW1iZGEkZ2V0UHJvZHVjdEJ5Q29kZSQwKFByb2R1Y3RDb250cm9sbGVyLmphdmE6MzApXHJcblx0YXQgamF2YS5iYXNlL2phdmEudXRpbC5PcHRpb25hbC5vckVsc2VUaHJvdyhPcHRpb25hbC5qYXZhOjQwMylcclxuXHRhdCBjb20ubXJuLmNhdGFsb2dzZXJ2aWNlLndlYi5jb250cm9sbGVycy5Qcm9kdWN0Q29udHJvbGxlci5nZXRQcm9kdWN0QnlDb2RlKFByb2R1Y3RDb250cm9sbGVyLmphdmE6MzApXHJcblx0YXQgamF2YS5iYXNlL2pkay5pbnRlcm5hbC5yZWZsZWN0LkRpcmVjdE1ldGhvZEhhbmRsZUFjY2Vzc29yLmludm9rZShEaXJlY3RNZXRob2RIYW5kbGVBY2Nlc3Nvci5qYXZhOjEwMylcclxuXHRhdCBqYXZhLmJhc2UvamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kLmludm9rZShNZXRob2QuamF2YTo1ODApXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubWV0aG9kLnN1cHBvcnQuSW52b2NhYmxlSGFuZGxlck1ldGhvZC5kb0ludm9rZShJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmphdmE6MjU1KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm1ldGhvZC5zdXBwb3J0Lkludm9jYWJsZUhhbmRsZXJNZXRob2QuaW52b2tlRm9yUmVxdWVzdChJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmphdmE6MTg4KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5hbm5vdGF0aW9uLlNlcnZsZXRJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmludm9rZUFuZEhhbmRsZShTZXJ2bGV0SW52b2NhYmxlSGFuZGxlck1ldGhvZC5qYXZhOjExOClcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuYW5ub3RhdGlvbi5SZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmludm9rZUhhbmRsZXJNZXRob2QoUmVxdWVzdE1hcHBpbmdIYW5kbGVyQWRhcHRlci5qYXZhOjkyNSlcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuYW5ub3RhdGlvbi5SZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmhhbmRsZUludGVybmFsKFJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuamF2YTo4MzApXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5tdmMubWV0aG9kLkFic3RyYWN0SGFuZGxlck1ldGhvZEFkYXB0ZXIuaGFuZGxlKEFic3RyYWN0SGFuZGxlck1ldGhvZEFkYXB0ZXIuamF2YTo4NylcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkRpc3BhdGNoZXJTZXJ2bGV0LmRvRGlzcGF0Y2goRGlzcGF0Y2hlclNlcnZsZXQuamF2YToxMDg5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRGlzcGF0Y2hlclNlcnZsZXQuZG9TZXJ2aWNlKERpc3BhdGNoZXJTZXJ2bGV0LmphdmE6OTc5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5wcm9jZXNzUmVxdWVzdChGcmFtZXdvcmtTZXJ2bGV0LmphdmE6MTAxNClcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkZyYW1ld29ya1NlcnZsZXQuZG9HZXQoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkwMylcclxuXHRhdCBqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NTY0KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpXHJcblx0YXQgamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjY1OClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5pbnRlcm5hbERvRmlsdGVyKEFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uamF2YToyMDUpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb3JlLkFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uZG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE0OSlcclxuXHRhdCBvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb3JlLkFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uaW50ZXJuYWxEb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTc0KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmRvRmlsdGVyKEFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uamF2YToxNDkpXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLlJlcXVlc3RDb250ZXh0RmlsdGVyLmRvRmlsdGVySW50ZXJuYWwoUmVxdWVzdENvbnRleHRGaWx0ZXIuamF2YToxMDApXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLk9uY2VQZXJSZXF1ZXN0RmlsdGVyLmRvRmlsdGVyKE9uY2VQZXJSZXF1ZXN0RmlsdGVyLmphdmE6MTE2KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmludGVybmFsRG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE3NClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5kb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTQ5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5Gb3JtQ29udGVudEZpbHRlci5kb0ZpbHRlckludGVybmFsKEZvcm1Db250ZW50RmlsdGVyLmphdmE6OTMpXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLk9uY2VQZXJSZXF1ZXN0RmlsdGVyLmRvRmlsdGVyKE9uY2VQZXJSZXF1ZXN0RmlsdGVyLmphdmE6MTE2KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmludGVybmFsRG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE3NClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5kb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTQ5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5TZXJ2ZXJIdHRwT2JzZXJ2YXRpb25GaWx0ZXIuZG9GaWx0ZXJJbnRlcm5hbChTZXJ2ZXJIdHRwT2JzZXJ2YXRpb25GaWx0ZXIuamF2YToxMDkpXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLk9uY2VQZXJSZXF1ZXN0RmlsdGVyLmRvRmlsdGVyKE9uY2VQZXJSZXF1ZXN0RmlsdGVyLmphdmE6MTE2KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmludGVybmFsRG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE3NClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5kb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTQ5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5DaGFyYWN0ZXJFbmNvZGluZ0ZpbHRlci5kb0ZpbHRlckludGVybmFsKENoYXJhY3RlckVuY29kaW5nRmlsdGVyLmphdmE6MjAxKVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5PbmNlUGVyUmVxdWVzdEZpbHRlci5kb0ZpbHRlcihPbmNlUGVyUmVxdWVzdEZpbHRlci5qYXZhOjExNilcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5pbnRlcm5hbERvRmlsdGVyKEFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uamF2YToxNzQpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb3JlLkFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uZG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE0OSlcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuU3RhbmRhcmRXcmFwcGVyVmFsdmUuaW52b2tlKFN0YW5kYXJkV3JhcHBlclZhbHZlLmphdmE6MTY3KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5TdGFuZGFyZENvbnRleHRWYWx2ZS5pbnZva2UoU3RhbmRhcmRDb250ZXh0VmFsdmUuamF2YTo5MClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmF1dGhlbnRpY2F0b3IuQXV0aGVudGljYXRvckJhc2UuaW52b2tlKEF1dGhlbnRpY2F0b3JCYXNlLmphdmE6NDgyKVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5TdGFuZGFyZEhvc3RWYWx2ZS5pbnZva2UoU3RhbmRhcmRIb3N0VmFsdmUuamF2YToxMTUpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuRXJyb3JSZXBvcnRWYWx2ZS5pbnZva2UoRXJyb3JSZXBvcnRWYWx2ZS5qYXZhOjkzKVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5TdGFuZGFyZEVuZ2luZVZhbHZlLmludm9rZShTdGFuZGFyZEVuZ2luZVZhbHZlLmphdmE6NzQpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb25uZWN0b3IuQ295b3RlQWRhcHRlci5zZXJ2aWNlKENveW90ZUFkYXB0ZXIuamF2YTozNDQpXHJcblx0YXQgb3JnLmFwYWNoZS5jb3lvdGUuaHR0cDExLkh0dHAxMVByb2Nlc3Nvci5zZXJ2aWNlKEh0dHAxMVByb2Nlc3Nvci5qYXZhOjM5MSlcclxuXHRhdCBvcmcuYXBhY2hlLmNveW90ZS5BYnN0cmFjdFByb2Nlc3NvckxpZ2h0LnByb2Nlc3MoQWJzdHJhY3RQcm9jZXNzb3JMaWdodC5qYXZhOjYzKVxyXG5cdGF0IG9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvdG9jb2wkQ29ubmVjdGlvbkhhbmRsZXIucHJvY2VzcyhBYnN0cmFjdFByb3RvY29sLmphdmE6ODk2KVxyXG5cdGF0IG9yZy5hcGFjaGUudG9tY2F0LnV0aWwubmV0Lk5pb0VuZHBvaW50JFNvY2tldFByb2Nlc3Nvci5kb1J1bihOaW9FbmRwb2ludC5qYXZhOjE3NDQpXHJcblx0YXQgb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuU29ja2V0UHJvY2Vzc29yQmFzZS5ydW4oU29ja2V0UHJvY2Vzc29yQmFzZS5qYXZhOjUyKVxyXG5cdGF0IG9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UaHJlYWRQb29sRXhlY3V0b3IucnVuV29ya2VyKFRocmVhZFBvb2xFeGVjdXRvci5qYXZhOjExOTEpXHJcblx0YXQgb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvciRXb3JrZXIucnVuKFRocmVhZFBvb2xFeGVjdXRvci5qYXZhOjY1OSlcclxuXHRhdCBvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGFza1RocmVhZCRXcmFwcGluZ1J1bm5hYmxlLnJ1bihUYXNrVGhyZWFkLmphdmE6NjMpXHJcblx0YXQgamF2YS5iYXNlL2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpXHJcbiIsIm1lc3NhZ2UiOiJQcm9kdWN0IHdpdGggY29kZSAxMDUgbm90IGZvdW5kIiwicGF0aCI6Ii9hcGkvcHJvZHVjdHMvMTA1In0=" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot; : &quot;2024-04-17T09:00:38.526+00:00&quot;,&#10;  &quot;status&quot; : 500,&#10;  &quot;error&quot; : &quot;Internal Server Error&quot;,&#10;  &quot;trace&quot; : &quot;com.mrn.catalogservice.domain.ProductNotFoundException: Product with code 105 not found\r\n\tat com.mrn.catalogservice.domain.ProductNotFoundException.forCode(ProductNotFoundException.java:9)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.lambda$getProductByCode$0(ProductController.java:30)\r\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:403)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.getProductByCode(ProductController.java:30)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n&quot;,&#10;  &quot;message&quot; : &quot;Product with code 105 not found&quot;,&#10;  &quot;path&quot; : &quot;/api/products/105&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 09:00:38 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="5aa6b68c-aa7a-45e6-8234-1feff13528d2" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2024-04-17T09:00:38.526+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;trace&quot;:&quot;com.mrn.catalogservice.domain.ProductNotFoundException: Product with code 105 not found\r\n\tat com.mrn.catalogservice.domain.ProductNotFoundException.forCode(ProductNotFoundException.java:9)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.lambda$getProductByCode$0(ProductController.java:30)\r\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:403)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.getProductByCode(ProductController.java:30)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n&quot;,&quot;message&quot;:&quot;Product with code 105 not found&quot;,&quot;path&quot;:&quot;/api/products/105&quot;}" />
+              <option name="size" value="5819" />
+              <option name="time" value="196" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713344449256" />
+          <option name="id" value="67a8b449-4a48-4dae-af53-e943e1f4bde2" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/101" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0aW1lc3RhbXAiOiIyMDI0LTA0LTE3VDA5OjAwOjQ5LjI1MyswMDowMCIsInN0YXR1cyI6NTAwLCJlcnJvciI6IkludGVybmFsIFNlcnZlciBFcnJvciIsInRyYWNlIjoiY29tLm1ybi5jYXRhbG9nc2VydmljZS5kb21haW4uUHJvZHVjdE5vdEZvdW5kRXhjZXB0aW9uOiBQcm9kdWN0IHdpdGggY29kZSAxMDEgbm90IGZvdW5kXHJcblx0YXQgY29tLm1ybi5jYXRhbG9nc2VydmljZS5kb21haW4uUHJvZHVjdE5vdEZvdW5kRXhjZXB0aW9uLmZvckNvZGUoUHJvZHVjdE5vdEZvdW5kRXhjZXB0aW9uLmphdmE6OSlcclxuXHRhdCBjb20ubXJuLmNhdGFsb2dzZXJ2aWNlLndlYi5jb250cm9sbGVycy5Qcm9kdWN0Q29udHJvbGxlci5sYW1iZGEkZ2V0UHJvZHVjdEJ5Q29kZSQwKFByb2R1Y3RDb250cm9sbGVyLmphdmE6MzApXHJcblx0YXQgamF2YS5iYXNlL2phdmEudXRpbC5PcHRpb25hbC5vckVsc2VUaHJvdyhPcHRpb25hbC5qYXZhOjQwMylcclxuXHRhdCBjb20ubXJuLmNhdGFsb2dzZXJ2aWNlLndlYi5jb250cm9sbGVycy5Qcm9kdWN0Q29udHJvbGxlci5nZXRQcm9kdWN0QnlDb2RlKFByb2R1Y3RDb250cm9sbGVyLmphdmE6MzApXHJcblx0YXQgamF2YS5iYXNlL2pkay5pbnRlcm5hbC5yZWZsZWN0LkRpcmVjdE1ldGhvZEhhbmRsZUFjY2Vzc29yLmludm9rZShEaXJlY3RNZXRob2RIYW5kbGVBY2Nlc3Nvci5qYXZhOjEwMylcclxuXHRhdCBqYXZhLmJhc2UvamF2YS5sYW5nLnJlZmxlY3QuTWV0aG9kLmludm9rZShNZXRob2QuamF2YTo1ODApXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIubWV0aG9kLnN1cHBvcnQuSW52b2NhYmxlSGFuZGxlck1ldGhvZC5kb0ludm9rZShJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmphdmE6MjU1KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLm1ldGhvZC5zdXBwb3J0Lkludm9jYWJsZUhhbmRsZXJNZXRob2QuaW52b2tlRm9yUmVxdWVzdChJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmphdmE6MTg4KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQubXZjLm1ldGhvZC5hbm5vdGF0aW9uLlNlcnZsZXRJbnZvY2FibGVIYW5kbGVyTWV0aG9kLmludm9rZUFuZEhhbmRsZShTZXJ2bGV0SW52b2NhYmxlSGFuZGxlck1ldGhvZC5qYXZhOjExOClcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuYW5ub3RhdGlvbi5SZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmludm9rZUhhbmRsZXJNZXRob2QoUmVxdWVzdE1hcHBpbmdIYW5kbGVyQWRhcHRlci5qYXZhOjkyNSlcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0Lm12Yy5tZXRob2QuYW5ub3RhdGlvbi5SZXF1ZXN0TWFwcGluZ0hhbmRsZXJBZGFwdGVyLmhhbmRsZUludGVybmFsKFJlcXVlc3RNYXBwaW5nSGFuZGxlckFkYXB0ZXIuamF2YTo4MzApXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuc2VydmxldC5tdmMubWV0aG9kLkFic3RyYWN0SGFuZGxlck1ldGhvZEFkYXB0ZXIuaGFuZGxlKEFic3RyYWN0SGFuZGxlck1ldGhvZEFkYXB0ZXIuamF2YTo4NylcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkRpc3BhdGNoZXJTZXJ2bGV0LmRvRGlzcGF0Y2goRGlzcGF0Y2hlclNlcnZsZXQuamF2YToxMDg5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRGlzcGF0Y2hlclNlcnZsZXQuZG9TZXJ2aWNlKERpc3BhdGNoZXJTZXJ2bGV0LmphdmE6OTc5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5wcm9jZXNzUmVxdWVzdChGcmFtZXdvcmtTZXJ2bGV0LmphdmE6MTAxNClcclxuXHRhdCBvcmcuc3ByaW5nZnJhbWV3b3JrLndlYi5zZXJ2bGV0LkZyYW1ld29ya1NlcnZsZXQuZG9HZXQoRnJhbWV3b3JrU2VydmxldC5qYXZhOjkwMylcclxuXHRhdCBqYWthcnRhLnNlcnZsZXQuaHR0cC5IdHRwU2VydmxldC5zZXJ2aWNlKEh0dHBTZXJ2bGV0LmphdmE6NTY0KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLnNlcnZsZXQuRnJhbWV3b3JrU2VydmxldC5zZXJ2aWNlKEZyYW1ld29ya1NlcnZsZXQuamF2YTo4ODUpXHJcblx0YXQgamFrYXJ0YS5zZXJ2bGV0Lmh0dHAuSHR0cFNlcnZsZXQuc2VydmljZShIdHRwU2VydmxldC5qYXZhOjY1OClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5pbnRlcm5hbERvRmlsdGVyKEFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uamF2YToyMDUpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb3JlLkFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uZG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE0OSlcclxuXHRhdCBvcmcuYXBhY2hlLnRvbWNhdC53ZWJzb2NrZXQuc2VydmVyLldzRmlsdGVyLmRvRmlsdGVyKFdzRmlsdGVyLmphdmE6NTEpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb3JlLkFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uaW50ZXJuYWxEb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTc0KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmRvRmlsdGVyKEFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uamF2YToxNDkpXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLlJlcXVlc3RDb250ZXh0RmlsdGVyLmRvRmlsdGVySW50ZXJuYWwoUmVxdWVzdENvbnRleHRGaWx0ZXIuamF2YToxMDApXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLk9uY2VQZXJSZXF1ZXN0RmlsdGVyLmRvRmlsdGVyKE9uY2VQZXJSZXF1ZXN0RmlsdGVyLmphdmE6MTE2KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmludGVybmFsRG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE3NClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5kb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTQ5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5Gb3JtQ29udGVudEZpbHRlci5kb0ZpbHRlckludGVybmFsKEZvcm1Db250ZW50RmlsdGVyLmphdmE6OTMpXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLk9uY2VQZXJSZXF1ZXN0RmlsdGVyLmRvRmlsdGVyKE9uY2VQZXJSZXF1ZXN0RmlsdGVyLmphdmE6MTE2KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmludGVybmFsRG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE3NClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5kb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTQ5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5TZXJ2ZXJIdHRwT2JzZXJ2YXRpb25GaWx0ZXIuZG9GaWx0ZXJJbnRlcm5hbChTZXJ2ZXJIdHRwT2JzZXJ2YXRpb25GaWx0ZXIuamF2YToxMDkpXHJcblx0YXQgb3JnLnNwcmluZ2ZyYW1ld29yay53ZWIuZmlsdGVyLk9uY2VQZXJSZXF1ZXN0RmlsdGVyLmRvRmlsdGVyKE9uY2VQZXJSZXF1ZXN0RmlsdGVyLmphdmE6MTE2KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5BcHBsaWNhdGlvbkZpbHRlckNoYWluLmludGVybmFsRG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE3NClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5kb0ZpbHRlcihBcHBsaWNhdGlvbkZpbHRlckNoYWluLmphdmE6MTQ5KVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5DaGFyYWN0ZXJFbmNvZGluZ0ZpbHRlci5kb0ZpbHRlckludGVybmFsKENoYXJhY3RlckVuY29kaW5nRmlsdGVyLmphdmE6MjAxKVxyXG5cdGF0IG9yZy5zcHJpbmdmcmFtZXdvcmsud2ViLmZpbHRlci5PbmNlUGVyUmVxdWVzdEZpbHRlci5kb0ZpbHRlcihPbmNlUGVyUmVxdWVzdEZpbHRlci5qYXZhOjExNilcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5pbnRlcm5hbERvRmlsdGVyKEFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uamF2YToxNzQpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb3JlLkFwcGxpY2F0aW9uRmlsdGVyQ2hhaW4uZG9GaWx0ZXIoQXBwbGljYXRpb25GaWx0ZXJDaGFpbi5qYXZhOjE0OSlcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmNvcmUuU3RhbmRhcmRXcmFwcGVyVmFsdmUuaW52b2tlKFN0YW5kYXJkV3JhcHBlclZhbHZlLmphdmE6MTY3KVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5TdGFuZGFyZENvbnRleHRWYWx2ZS5pbnZva2UoU3RhbmRhcmRDb250ZXh0VmFsdmUuamF2YTo5MClcclxuXHRhdCBvcmcuYXBhY2hlLmNhdGFsaW5hLmF1dGhlbnRpY2F0b3IuQXV0aGVudGljYXRvckJhc2UuaW52b2tlKEF1dGhlbnRpY2F0b3JCYXNlLmphdmE6NDgyKVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5TdGFuZGFyZEhvc3RWYWx2ZS5pbnZva2UoU3RhbmRhcmRIb3N0VmFsdmUuamF2YToxMTUpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS52YWx2ZXMuRXJyb3JSZXBvcnRWYWx2ZS5pbnZva2UoRXJyb3JSZXBvcnRWYWx2ZS5qYXZhOjkzKVxyXG5cdGF0IG9yZy5hcGFjaGUuY2F0YWxpbmEuY29yZS5TdGFuZGFyZEVuZ2luZVZhbHZlLmludm9rZShTdGFuZGFyZEVuZ2luZVZhbHZlLmphdmE6NzQpXHJcblx0YXQgb3JnLmFwYWNoZS5jYXRhbGluYS5jb25uZWN0b3IuQ295b3RlQWRhcHRlci5zZXJ2aWNlKENveW90ZUFkYXB0ZXIuamF2YTozNDQpXHJcblx0YXQgb3JnLmFwYWNoZS5jb3lvdGUuaHR0cDExLkh0dHAxMVByb2Nlc3Nvci5zZXJ2aWNlKEh0dHAxMVByb2Nlc3Nvci5qYXZhOjM5MSlcclxuXHRhdCBvcmcuYXBhY2hlLmNveW90ZS5BYnN0cmFjdFByb2Nlc3NvckxpZ2h0LnByb2Nlc3MoQWJzdHJhY3RQcm9jZXNzb3JMaWdodC5qYXZhOjYzKVxyXG5cdGF0IG9yZy5hcGFjaGUuY295b3RlLkFic3RyYWN0UHJvdG9jb2wkQ29ubmVjdGlvbkhhbmRsZXIucHJvY2VzcyhBYnN0cmFjdFByb3RvY29sLmphdmE6ODk2KVxyXG5cdGF0IG9yZy5hcGFjaGUudG9tY2F0LnV0aWwubmV0Lk5pb0VuZHBvaW50JFNvY2tldFByb2Nlc3Nvci5kb1J1bihOaW9FbmRwb2ludC5qYXZhOjE3NDQpXHJcblx0YXQgb3JnLmFwYWNoZS50b21jYXQudXRpbC5uZXQuU29ja2V0UHJvY2Vzc29yQmFzZS5ydW4oU29ja2V0UHJvY2Vzc29yQmFzZS5qYXZhOjUyKVxyXG5cdGF0IG9yZy5hcGFjaGUudG9tY2F0LnV0aWwudGhyZWFkcy5UaHJlYWRQb29sRXhlY3V0b3IucnVuV29ya2VyKFRocmVhZFBvb2xFeGVjdXRvci5qYXZhOjExOTEpXHJcblx0YXQgb3JnLmFwYWNoZS50b21jYXQudXRpbC50aHJlYWRzLlRocmVhZFBvb2xFeGVjdXRvciRXb3JrZXIucnVuKFRocmVhZFBvb2xFeGVjdXRvci5qYXZhOjY1OSlcclxuXHRhdCBvcmcuYXBhY2hlLnRvbWNhdC51dGlsLnRocmVhZHMuVGFza1RocmVhZCRXcmFwcGluZ1J1bm5hYmxlLnJ1bihUYXNrVGhyZWFkLmphdmE6NjMpXHJcblx0YXQgamF2YS5iYXNlL2phdmEubGFuZy5UaHJlYWQucnVuKFRocmVhZC5qYXZhOjE1ODMpXHJcbiIsIm1lc3NhZ2UiOiJQcm9kdWN0IHdpdGggY29kZSAxMDEgbm90IGZvdW5kIiwicGF0aCI6Ii9hcGkvcHJvZHVjdHMvMTAxIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;timestamp&quot; : &quot;2024-04-17T09:00:49.253+00:00&quot;,&#10;  &quot;status&quot; : 500,&#10;  &quot;error&quot; : &quot;Internal Server Error&quot;,&#10;  &quot;trace&quot; : &quot;com.mrn.catalogservice.domain.ProductNotFoundException: Product with code 101 not found\r\n\tat com.mrn.catalogservice.domain.ProductNotFoundException.forCode(ProductNotFoundException.java:9)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.lambda$getProductByCode$0(ProductController.java:30)\r\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:403)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.getProductByCode(ProductController.java:30)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n&quot;,&#10;  &quot;message&quot; : &quot;Product with code 101 not found&quot;,&#10;  &quot;path&quot; : &quot;/api/products/101&quot;&#10;}" />
+              <option name="code" value="500" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 09:00:49 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="close" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="67a8b449-4a48-4dae-af53-e943e1f4bde2" />
+              <option name="message" value="Internal Server Error" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;timestamp&quot;:&quot;2024-04-17T09:00:49.253+00:00&quot;,&quot;status&quot;:500,&quot;error&quot;:&quot;Internal Server Error&quot;,&quot;trace&quot;:&quot;com.mrn.catalogservice.domain.ProductNotFoundException: Product with code 101 not found\r\n\tat com.mrn.catalogservice.domain.ProductNotFoundException.forCode(ProductNotFoundException.java:9)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.lambda$getProductByCode$0(ProductController.java:30)\r\n\tat java.base/java.util.Optional.orElseThrow(Optional.java:403)\r\n\tat com.mrn.catalogservice.web.controllers.ProductController.getProductByCode(ProductController.java:30)\r\n\tat java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:580)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)\r\n\tat org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:925)\r\n\tat org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:830)\r\n\tat org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)\r\n\tat org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)\r\n\tat org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)\r\n\tat org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)\r\n\tat org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)\r\n\tat jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:109)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)\r\n\tat org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)\r\n\tat org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)\r\n\tat org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)\r\n\tat org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)\r\n\tat org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)\r\n\tat org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)\r\n\tat org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)\r\n\tat org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)\r\n\tat org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)\r\n\tat org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)\r\n\tat org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)\r\n\tat org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)\r\n\tat org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744)\r\n\tat org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)\r\n\tat org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)\r\n\tat org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)\r\n\tat java.base/java.lang.Thread.run(Thread.java:1583)\r\n&quot;,&quot;message&quot;:&quot;Product with code 101 not found&quot;,&quot;path&quot;:&quot;/api/products/101&quot;}" />
+              <option name="size" value="5819" />
+              <option name="time" value="12" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713344493137" />
+          <option name="id" value="c3d934a0-484f-4eec-8655-eacc2aadaed6" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P101" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjoiUDEwMSIsIm5hbWUiOiJUbyBLaWxsIGEgTW9ja2luZ2JpcmQiLCJkZXNjcmlwdGlvbiI6IlRoZSB1bmZvcmdldHRhYmxlIG5vdmVsIG9mIGEgY2hpbGRob29kIGluIGEgc2xlZXB5IFNvdXRoZXJuIHRvd24gYW5kIHRoZSBjcmlzaXMgb2YgY29uc2NpZW5jZSB0aGF0IHJvY2tlZCBpdC4uLiIsImltYWdlVXJsIjoiaHR0cHM6Ly9pbWFnZXMuZ3ItYXNzZXRzLmNvbS9ib29rcy8xMzYxOTc1NjgwbC8yNjU3LmpwZyIsInByaWNlIjo0NS40MH0=" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot; : &quot;P101&quot;,&#10;  &quot;name&quot; : &quot;To Kill a Mockingbird&quot;,&#10;  &quot;description&quot; : &quot;The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it...&quot;,&#10;  &quot;imageUrl&quot; : &quot;https://images.gr-assets.com/books/1361975680l/2657.jpg&quot;,&#10;  &quot;price&quot; : 45.4&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 09:01:33 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c3d934a0-484f-4eec-8655-eacc2aadaed6" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:&quot;P101&quot;,&quot;name&quot;:&quot;To Kill a Mockingbird&quot;,&quot;description&quot;:&quot;The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it...&quot;,&quot;imageUrl&quot;:&quot;https://images.gr-assets.com/books/1361975680l/2657.jpg&quot;,&quot;price&quot;:45.40}" />
+              <option name="size" value="257" />
+              <option name="time" value="27" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713355161659" />
+          <option name="id" value="f894e288-46e1-4ecc-a421-a299f597dd5a" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P101" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjoiUDEwMSIsIm5hbWUiOiJUbyBLaWxsIGEgTW9ja2luZ2JpcmQiLCJkZXNjcmlwdGlvbiI6IlRoZSB1bmZvcmdldHRhYmxlIG5vdmVsIG9mIGEgY2hpbGRob29kIGluIGEgc2xlZXB5IFNvdXRoZXJuIHRvd24gYW5kIHRoZSBjcmlzaXMgb2YgY29uc2NpZW5jZSB0aGF0IHJvY2tlZCBpdC4uLiIsImltYWdlVXJsIjoiaHR0cHM6Ly9pbWFnZXMuZ3ItYXNzZXRzLmNvbS9ib29rcy8xMzYxOTc1NjgwbC8yNjU3LmpwZyIsInByaWNlIjo0NS40MH0=" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot; : &quot;P101&quot;,&#10;  &quot;name&quot; : &quot;To Kill a Mockingbird&quot;,&#10;  &quot;description&quot; : &quot;The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it...&quot;,&#10;  &quot;imageUrl&quot; : &quot;https://images.gr-assets.com/books/1361975680l/2657.jpg&quot;,&#10;  &quot;price&quot; : 45.4&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 11:59:21 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="f894e288-46e1-4ecc-a421-a299f597dd5a" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:&quot;P101&quot;,&quot;name&quot;:&quot;To Kill a Mockingbird&quot;,&quot;description&quot;:&quot;The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it...&quot;,&quot;imageUrl&quot;:&quot;https://images.gr-assets.com/books/1361975680l/2657.jpg&quot;,&quot;price&quot;:45.40}" />
+              <option name="size" value="257" />
+              <option name="time" value="178" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713355170075" />
+          <option name="id" value="14a36f07-15dd-4aec-ab92-af40babd6eb5" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P10111" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0eXBlIjoiaHR0cHM6Ly9hcGkuYm9va3N0b3JlLmNvbS9lcnJvcnMvc2VydmVyLWVycm9yIiwidGl0bGUiOiJQcm9kdWN0IE5vdCBGb3VuZCIsInN0YXR1cyI6NDA0LCJkZXRhaWwiOiJQcm9kdWN0IHdpdGggY29kZSBQMTAxMTEgbm90IGZvdW5kIiwiaW5zdGFuY2UiOiIvYXBpL3Byb2R1Y3RzL1AxMDExMSIsInNlcnZpY2UiOiJjYXRhbG9nLXNlcnZpY2UiLCJlcnJvcl9jYXRlZ29yeSI6IkdlbmVyaWMiLCJ0aW1lc3RhbXAiOiIyMDI0LTA0LTE3VDExOjU5OjMwLjA2NjM3NzQwMFoifQ==" />
+              <option name="bodyString" value="{&#10;  &quot;type&quot; : &quot;https://api.bookstore.com/errors/server-error&quot;,&#10;  &quot;title&quot; : &quot;Product Not Found&quot;,&#10;  &quot;status&quot; : 404,&#10;  &quot;detail&quot; : &quot;Product with code P10111 not found&quot;,&#10;  &quot;instance&quot; : &quot;/api/products/P10111&quot;,&#10;  &quot;service&quot; : &quot;catalog-service&quot;,&#10;  &quot;error_category&quot; : &quot;Generic&quot;,&#10;  &quot;timestamp&quot; : &quot;2024-04-17T11:59:30.066377400Z&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="contentType" value="application/problem+json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/problem+json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 11:59:30 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="14a36f07-15dd-4aec-ab92-af40babd6eb5" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;type&quot;:&quot;https://api.bookstore.com/errors/server-error&quot;,&quot;title&quot;:&quot;Product Not Found&quot;,&quot;status&quot;:404,&quot;detail&quot;:&quot;Product with code P10111 not found&quot;,&quot;instance&quot;:&quot;/api/products/P10111&quot;,&quot;service&quot;:&quot;catalog-service&quot;,&quot;error_category&quot;:&quot;Generic&quot;,&quot;timestamp&quot;:&quot;2024-04-17T11:59:30.066377400Z&quot;}" />
+              <option name="size" value="277" />
+              <option name="time" value="19" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713355325984" />
+          <option name="id" value="b24d48f6-2faa-4f1b-987d-90e85eddf0c5" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P101" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjoiUDEwMSIsIm5hbWUiOiJUbyBLaWxsIGEgTW9ja2luZ2JpcmQiLCJkZXNjcmlwdGlvbiI6IlRoZSB1bmZvcmdldHRhYmxlIG5vdmVsIG9mIGEgY2hpbGRob29kIGluIGEgc2xlZXB5IFNvdXRoZXJuIHRvd24gYW5kIHRoZSBjcmlzaXMgb2YgY29uc2NpZW5jZSB0aGF0IHJvY2tlZCBpdC4uLiIsImltYWdlVXJsIjoiaHR0cHM6Ly9pbWFnZXMuZ3ItYXNzZXRzLmNvbS9ib29rcy8xMzYxOTc1NjgwbC8yNjU3LmpwZyIsInByaWNlIjo0NS40MH0=" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot; : &quot;P101&quot;,&#10;  &quot;name&quot; : &quot;To Kill a Mockingbird&quot;,&#10;  &quot;description&quot; : &quot;The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it...&quot;,&#10;  &quot;imageUrl&quot; : &quot;https://images.gr-assets.com/books/1361975680l/2657.jpg&quot;,&#10;  &quot;price&quot; : 45.4&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 12:02:05 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b24d48f6-2faa-4f1b-987d-90e85eddf0c5" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:&quot;P101&quot;,&quot;name&quot;:&quot;To Kill a Mockingbird&quot;,&quot;description&quot;:&quot;The unforgettable novel of a childhood in a sleepy Southern town and the crisis of conscience that rocked it...&quot;,&quot;imageUrl&quot;:&quot;https://images.gr-assets.com/books/1361975680l/2657.jpg&quot;,&quot;price&quot;:45.40}" />
+              <option name="size" value="257" />
+              <option name="time" value="10" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713355338625" />
+          <option name="id" value="b2fa5114-f671-4cee-a87f-83d932d2d449" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P100" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjoiUDEwMCIsIm5hbWUiOiJUaGUgSHVuZ2VyIEdhbWVzIiwiZGVzY3JpcHRpb24iOiJXaW5uaW5nIHdpbGwgbWFrZSB5b3UgZmFtb3VzLiBMb3NpbmcgbWVhbnMgY2VydGFpbiBkZWF0aC4uLiIsImltYWdlVXJsIjoiaHR0cHM6Ly9pbWFnZXMuZ3ItYXNzZXRzLmNvbS9ib29rcy8xNDQ3MzAzNjAzbC8yNzY3MDUyLmpwZyIsInByaWNlIjozNC4wfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot; : &quot;P100&quot;,&#10;  &quot;name&quot; : &quot;The Hunger Games&quot;,&#10;  &quot;description&quot; : &quot;Winning will make you famous. Losing means certain death...&quot;,&#10;  &quot;imageUrl&quot; : &quot;https://images.gr-assets.com/books/1447303603l/2767052.jpg&quot;,&#10;  &quot;price&quot; : 34.0&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Wed, 17 Apr 2024 12:02:18 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="b2fa5114-f671-4cee-a87f-83d932d2d449" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:&quot;P100&quot;,&quot;name&quot;:&quot;The Hunger Games&quot;,&quot;description&quot;:&quot;Winning will make you famous. Losing means certain death...&quot;,&quot;imageUrl&quot;:&quot;https://images.gr-assets.com/books/1447303603l/2767052.jpg&quot;,&quot;price&quot;:34.0}" />
+              <option name="size" value="202" />
+              <option name="time" value="9" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1713535384735" />
+          <option name="id" value="e077fb52-43da-482c-8375-7da02958d76d" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P100" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjoiUDEwMCIsIm5hbWUiOiJUaGUgSHVuZ2VyIEdhbWVzIiwiZGVzY3JpcHRpb24iOiJXaW5uaW5nIHdpbGwgbWFrZSB5b3UgZmFtb3VzLiBMb3NpbmcgbWVhbnMgY2VydGFpbiBkZWF0aC4uLiIsImltYWdlVXJsIjoiaHR0cHM6Ly9pbWFnZXMuZ3ItYXNzZXRzLmNvbS9ib29rcy8xNDQ3MzAzNjAzbC8yNzY3MDUyLmpwZyIsInByaWNlIjozNC4wfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot; : &quot;P100&quot;,&#10;  &quot;name&quot; : &quot;The Hunger Games&quot;,&#10;  &quot;description&quot; : &quot;Winning will make you famous. Losing means certain death...&quot;,&#10;  &quot;imageUrl&quot; : &quot;https://images.gr-assets.com/books/1447303603l/2767052.jpg&quot;,&#10;  &quot;price&quot; : 34.0&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Fri, 19 Apr 2024 14:03:04 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="e077fb52-43da-482c-8375-7da02958d76d" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:&quot;P100&quot;,&quot;name&quot;:&quot;The Hunger Games&quot;,&quot;description&quot;:&quot;Winning will make you famous. Losing means certain death...&quot;,&quot;imageUrl&quot;:&quot;https://images.gr-assets.com/books/1447303603l/2767052.jpg&quot;,&quot;price&quot;:34.0}" />
+              <option name="size" value="202" />
+              <option name="time" value="35" />
+            </responseState>
+          </option>
+        </requestHistoryState>
+      </list>
+    </option>
+  </component>
+</project>

@@ -5,10 +5,10 @@
 	https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.sivalabs</groupId>
-    <artifactId>spring-boot-microservices-course</artifactId>
+    <artifactId>spring-boot-microservices-catalog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>spring-boot-microservices-course</name>
+    <name>spring-boot-microservices-catalog</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -16,7 +16,6 @@
         <maven.compiler.release>${java.version}</maven.compiler.release>
         <spotless-maven-plugin.version>2.43.0</spotless-maven-plugin.version>
     </properties>
-
 
     <modules>
         <module>catalog-service</module>
