@@ -574,126 +574,6 @@
           </option>
         </requestHistoryState>
         <requestHistoryState>
-          <option name="dateTime" value="1713970271861" />
-          <option name="id" value="0ecdb990-3c30-4932-b2dc-8652cb6392b5" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;customer&quot;: {&#10;    &quot;name&quot;: &quot;clown&quot;,&#10;    &quot;email&quot;: &quot;email@email.com&quot;,&#10;    &quot;phone&quot;: &quot;99999998&quot;&#10;  },&#10;  &quot;deliveryAddress&quot;: {&#10;    &quot;addressLine0&quot;: &quot;AddressLine1&quot;,&#10;    &quot;addressLine1&quot;: &quot;AddressLine2&quot;,&#10;    &quot;city&quot;: &quot;New Clown&quot;,&#10;    &quot;state&quot;: &quot;IdiotState&quot;,&#10;    &quot;zipCode&quot;: &quot;1336&quot;,&#10;    &quot;country&quot;: &quot;Rougandia&quot;&#10;  },&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;code&quot;: &quot;P100&quot;,&#10;      &quot;name&quot;: &quot;Product 1&quot;,&#10;      &quot;price&quot;: 34.00,&#10;      &quot;quantity&quot;: 0&#10;    }&#10;  ]&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="3e1e2fec-a9ab-4a3a-a531-da83147b04a2" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft 2" />
-              <option name="url" value="http://localhost:8082/api/orders" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0eXBlIjoiaHR0cHM6Ly9hcGkuYm9va3N0b3JlLmNvbS9lcnJvcnMvYmFkLXJlcXVlc3QiLCJ0aXRsZSI6IkludmFsaWQgT3JkZXIgQ3JlYXRpb24gUmVxdWVzdCIsInN0YXR1cyI6NDAwLCJkZXRhaWwiOiJJbnZhbGlkIFByb2R1Y3QgY29kZTogUDEwMCIsImluc3RhbmNlIjoiL2FwaS9vcmRlcnMiLCJzZXJ2aWNlIjoib3JkZXItc2VydmljZSIsImVycm9yX2NhdGVnb3J5IjoiR2VuZXJpYyIsInRpbWVzdGFtcCI6IjIwMjQtMDQtMjRUMTQ6NTE6MTEuODUyODg2MTAwWiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;type&quot; : &quot;https://api.bookstore.com/errors/bad-request&quot;,&#10;  &quot;title&quot; : &quot;Invalid Order Creation Request&quot;,&#10;  &quot;status&quot; : 400,&#10;  &quot;detail&quot; : &quot;Invalid Product code: P100&quot;,&#10;  &quot;instance&quot; : &quot;/api/orders&quot;,&#10;  &quot;service&quot; : &quot;order-service&quot;,&#10;  &quot;error_category&quot; : &quot;Generic&quot;,&#10;  &quot;timestamp&quot; : &quot;2024-04-24T14:51:11.852886100Z&quot;&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/problem+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/problem+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 24 Apr 2024 14:51:11 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="0ecdb990-3c30-4932-b2dc-8652cb6392b5" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;type&quot;:&quot;https://api.bookstore.com/errors/bad-request&quot;,&quot;title&quot;:&quot;Invalid Order Creation Request&quot;,&quot;status&quot;:400,&quot;detail&quot;:&quot;Invalid Product code: P100&quot;,&quot;instance&quot;:&quot;/api/orders&quot;,&quot;service&quot;:&quot;order-service&quot;,&quot;error_category&quot;:&quot;Generic&quot;,&quot;timestamp&quot;:&quot;2024-04-24T14:51:11.852886100Z&quot;}" />
-              <option name="size" value="270" />
-              <option name="time" value="16091" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
-          <option name="dateTime" value="1713970520530" />
-          <option name="id" value="1f70879e-ee45-49e1-9fd5-d100f90a2d34" />
-          <option name="request">
-            <requestState>
-              <option name="body">
-                <bodyState>
-                  <option name="raw" value="{&#10;  &quot;customer&quot;: {&#10;    &quot;name&quot;: &quot;clown&quot;,&#10;    &quot;email&quot;: &quot;email@email.com&quot;,&#10;    &quot;phone&quot;: &quot;99999998&quot;&#10;  },&#10;  &quot;deliveryAddress&quot;: {&#10;    &quot;addressLine0&quot;: &quot;AddressLine1&quot;,&#10;    &quot;addressLine1&quot;: &quot;AddressLine2&quot;,&#10;    &quot;city&quot;: &quot;New Clown&quot;,&#10;    &quot;state&quot;: &quot;IdiotState&quot;,&#10;    &quot;zipCode&quot;: &quot;1336&quot;,&#10;    &quot;country&quot;: &quot;Rougandia&quot;&#10;  },&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;code&quot;: &quot;P100&quot;,&#10;      &quot;name&quot;: &quot;Product 1&quot;,&#10;      &quot;price&quot;: 34.00,&#10;      &quot;quantity&quot;: 0&#10;    }&#10;  ]&#10;}" />
-                  <option name="type" value="JSON" />
-                </bodyState>
-              </option>
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/json" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="3e1e2fec-a9ab-4a3a-a531-da83147b04a2" />
-              <option name="method" value="POST" />
-              <option name="name" value="Draft 2" />
-              <option name="url" value="http://localhost:8082/api/orders" />
-            </requestState>
-          </option>
-          <option name="response">
-            <responseState>
-              <option name="bodyBytesBase64" value="eyJ0eXBlIjoiaHR0cHM6Ly9hcGkuYm9va3N0b3JlLmNvbS9lcnJvcnMvYmFkLXJlcXVlc3QiLCJ0aXRsZSI6IkludmFsaWQgT3JkZXIgQ3JlYXRpb24gUmVxdWVzdCIsInN0YXR1cyI6NDAwLCJkZXRhaWwiOiJJbnZhbGlkIFByb2R1Y3QgY29kZTogUDEwMCIsImluc3RhbmNlIjoiL2FwaS9vcmRlcnMiLCJzZXJ2aWNlIjoib3JkZXItc2VydmljZSIsImVycm9yX2NhdGVnb3J5IjoiR2VuZXJpYyIsInRpbWVzdGFtcCI6IjIwMjQtMDQtMjRUMTQ6NTU6MjAuNTEzMTExOTAwWiJ9" />
-              <option name="bodyString" value="{&#10;  &quot;type&quot; : &quot;https://api.bookstore.com/errors/bad-request&quot;,&#10;  &quot;title&quot; : &quot;Invalid Order Creation Request&quot;,&#10;  &quot;status&quot; : 400,&#10;  &quot;detail&quot; : &quot;Invalid Product code: P100&quot;,&#10;  &quot;instance&quot; : &quot;/api/orders&quot;,&#10;  &quot;service&quot; : &quot;order-service&quot;,&#10;  &quot;error_category&quot; : &quot;Generic&quot;,&#10;  &quot;timestamp&quot; : &quot;2024-04-24T14:55:20.513111900Z&quot;&#10;}" />
-              <option name="code" value="400" />
-              <option name="contentType" value="application/problem+json" />
-              <option name="headers">
-                <list>
-                  <headerState>
-                    <option name="key" value="Content-Type" />
-                    <option name="value" value="application/problem+json" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Transfer-Encoding" />
-                    <option name="value" value="chunked" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Date" />
-                    <option name="value" value="Wed, 24 Apr 2024 14:55:20 GMT" />
-                  </headerState>
-                  <headerState>
-                    <option name="key" value="Connection" />
-                    <option name="value" value="close" />
-                  </headerState>
-                </list>
-              </option>
-              <option name="id" value="1f70879e-ee45-49e1-9fd5-d100f90a2d34" />
-              <option name="message" value="Bad Request" />
-              <option name="prettyResponseType" value="JSON" />
-              <option name="rawBodyString" value="{&quot;type&quot;:&quot;https://api.bookstore.com/errors/bad-request&quot;,&quot;title&quot;:&quot;Invalid Order Creation Request&quot;,&quot;status&quot;:400,&quot;detail&quot;:&quot;Invalid Product code: P100&quot;,&quot;instance&quot;:&quot;/api/orders&quot;,&quot;service&quot;:&quot;order-service&quot;,&quot;error_category&quot;:&quot;Generic&quot;,&quot;timestamp&quot;:&quot;2024-04-24T14:55:20.513111900Z&quot;}" />
-              <option name="size" value="270" />
-              <option name="time" value="29308" />
-            </responseState>
-          </option>
-        </requestHistoryState>
-        <requestHistoryState>
           <option name="dateTime" value="1713974005950" />
           <option name="id" value="67e7389c-2d0e-410f-8709-417c83d0dee9" />
           <option name="request">
@@ -2150,6 +2030,299 @@
               <option name="time" value="638" />
             </responseState>
           </option>
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1715403415309" />
+          <option name="id" value="28b266cc-cb04-4dc9-b6ea-526209352798" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;routingKey&quot;: &quot;delivered-orders&quot;,&#10;  &quot;payload&quot;: {&#10;    &quot;content&quot;: &quot;Order delivered with id=1234&quot;&#10;  }&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="428ad281-89ed-4976-b569-6b0f90ce6a29" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 1" />
+              <option name="url" value="http://localhost:8082/send" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJ0eXBlIjoiYWJvdXQ6YmxhbmsiLCJ0aXRsZSI6Ik5vdCBGb3VuZCIsInN0YXR1cyI6NDA0LCJkZXRhaWwiOiJObyBzdGF0aWMgcmVzb3VyY2Ugc2VuZC4iLCJpbnN0YW5jZSI6Ii9zZW5kIn0=" />
+              <option name="bodyString" value="{&#10;  &quot;type&quot;: &quot;about:blank&quot;,&#10;  &quot;title&quot;: &quot;Not Found&quot;,&#10;  &quot;status&quot;: 404,&#10;  &quot;detail&quot;: &quot;No static resource send.&quot;,&#10;  &quot;instance&quot;: &quot;/send&quot;&#10;}" />
+              <option name="code" value="404" />
+              <option name="contentType" value="application/problem+json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/problem+json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 11 May 2024 04:56:55 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="28b266cc-cb04-4dc9-b6ea-526209352798" />
+              <option name="message" value="Not Found" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;type&quot;:&quot;about:blank&quot;,&quot;title&quot;:&quot;Not Found&quot;,&quot;status&quot;:404,&quot;detail&quot;:&quot;No static resource send.&quot;,&quot;instance&quot;:&quot;/send&quot;}" />
+              <option name="size" value="110" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1715403422054" />
+          <option name="id" value="583486e3-3bf8-4939-9df6-99ff3c8b0c95" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;customer&quot;: {&#10;    &quot;name&quot;: &quot;clown&quot;,&#10;    &quot;email&quot;: &quot;email@email.com&quot;,&#10;    &quot;phone&quot;: &quot;99999998&quot;&#10;  },&#10;  &quot;deliveryAddress&quot;: {&#10;    &quot;addressLine0&quot;: &quot;AddressLine1&quot;,&#10;    &quot;addressLine1&quot;: &quot;AddressLine2&quot;,&#10;    &quot;city&quot;: &quot;New Clown Cancelled&quot;,&#10;    &quot;state&quot;: &quot;IdiotState&quot;,&#10;    &quot;zipCode&quot;: &quot;1336&quot;,&#10;    &quot;country&quot;: &quot;Germany&quot;&#10;  },&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;code&quot;: &quot;P100&quot;,&#10;      &quot;name&quot;: &quot;Product 1&quot;,&#10;      &quot;price&quot;: 34.00,&#10;      &quot;quantity&quot;: 0&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3e1e2fec-a9ab-4a3a-a531-da83147b04a2" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 2" />
+              <option name="url" value="http://localhost:8082/api/orders" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvcmRlck51bWJlciI6ImNkZGYxOWY1LTZhNDgtNDc2ZC05ODRiLWU2ZTYwMjIyOGNkNSJ9" />
+              <option name="bodyString" value="{&#10;  &quot;orderNumber&quot;: &quot;cddf19f5-6a48-476d-984b-e6e602228cd5&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 11 May 2024 04:57:02 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="583486e3-3bf8-4939-9df6-99ff3c8b0c95" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;orderNumber&quot;:&quot;cddf19f5-6a48-476d-984b-e6e602228cd5&quot;}" />
+              <option name="size" value="54" />
+              <option name="time" value="324" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1715404706580" />
+          <option name="id" value="c6c9ff5c-41da-4871-9413-2e8161a32c33" />
+          <option name="request">
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;customer&quot;: {&#10;    &quot;name&quot;: &quot;clown&quot;,&#10;    &quot;email&quot;: &quot;email@email.com&quot;,&#10;    &quot;phone&quot;: &quot;99999998&quot;&#10;  },&#10;  &quot;deliveryAddress&quot;: {&#10;    &quot;addressLine0&quot;: &quot;AddressLine1&quot;,&#10;    &quot;addressLine1&quot;: &quot;AddressLine2&quot;,&#10;    &quot;city&quot;: &quot;New Clown Cancelled&quot;,&#10;    &quot;state&quot;: &quot;IdiotState&quot;,&#10;    &quot;zipCode&quot;: &quot;1336&quot;,&#10;    &quot;country&quot;: &quot;Germany&quot;&#10;  },&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;code&quot;: &quot;P100&quot;,&#10;      &quot;name&quot;: &quot;Product 1&quot;,&#10;      &quot;price&quot;: 34.00,&#10;      &quot;quantity&quot;: 0&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3e1e2fec-a9ab-4a3a-a531-da83147b04a2" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 2" />
+              <option name="url" value="http://localhost:8082/api/orders" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJvcmRlck51bWJlciI6IjI0ZDJmNzMzLWE3YmYtNDVhYy1iMmJjLTA2MDlkNmMxNTA0YiJ9" />
+              <option name="bodyString" value="{&#10;  &quot;orderNumber&quot;: &quot;24d2f733-a7bf-45ac-b2bc-0609d6c1504b&quot;&#10;}" />
+              <option name="code" value="201" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 11 May 2024 05:18:26 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="c6c9ff5c-41da-4871-9413-2e8161a32c33" />
+              <option name="message" value="Created" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;orderNumber&quot;:&quot;24d2f733-a7bf-45ac-b2bc-0609d6c1504b&quot;}" />
+              <option name="size" value="54" />
+              <option name="time" value="38" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
+        </requestHistoryState>
+        <requestHistoryState>
+          <option name="dateTime" value="1715404730045" />
+          <option name="id" value="70c86a91-6e9c-4eb8-b922-9d7229222ff3" />
+          <option name="request">
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P100" />
+            </requestState>
+          </option>
+          <option name="response">
+            <responseState>
+              <option name="bodyBytesBase64" value="eyJjb2RlIjoiUDEwMCIsIm5hbWUiOiJUaGUgSHVuZ2VyIEdhbWVzIiwiZGVzY3JpcHRpb24iOiJXaW5uaW5nIHdpbGwgbWFrZSB5b3UgZmFtb3VzLiBMb3NpbmcgbWVhbnMgY2VydGFpbiBkZWF0aC4uLiIsImltYWdlVXJsIjoiaHR0cHM6Ly9pbWFnZXMuZ3ItYXNzZXRzLmNvbS9ib29rcy8xNDQ3MzAzNjAzbC8yNzY3MDUyLmpwZyIsInByaWNlIjozNC4wfQ==" />
+              <option name="bodyString" value="{&#10;  &quot;code&quot;: &quot;P100&quot;,&#10;  &quot;name&quot;: &quot;The Hunger Games&quot;,&#10;  &quot;description&quot;: &quot;Winning will make you famous. Losing means certain death...&quot;,&#10;  &quot;imageUrl&quot;: &quot;https://images.gr-assets.com/books/1447303603l/2767052.jpg&quot;,&#10;  &quot;price&quot;: 34.0&#10;}" />
+              <option name="code" value="200" />
+              <option name="contentType" value="application/json" />
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Origin" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Method" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Vary" />
+                    <option name="value" value="Access-Control-Request-Headers" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Transfer-Encoding" />
+                    <option name="value" value="chunked" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Date" />
+                    <option name="value" value="Sat, 11 May 2024 05:18:50 GMT" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Keep-Alive" />
+                    <option name="value" value="timeout=60" />
+                  </headerState>
+                  <headerState>
+                    <option name="key" value="Connection" />
+                    <option name="value" value="keep-alive" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="70c86a91-6e9c-4eb8-b922-9d7229222ff3" />
+              <option name="message" value="OK" />
+              <option name="prettyResponseType" value="JSON" />
+              <option name="rawBodyString" value="{&quot;code&quot;:&quot;P100&quot;,&quot;name&quot;:&quot;The Hunger Games&quot;,&quot;description&quot;:&quot;Winning will make you famous. Losing means certain death...&quot;,&quot;imageUrl&quot;:&quot;https://images.gr-assets.com/books/1447303603l/2767052.jpg&quot;,&quot;price&quot;:34.0}" />
+              <option name="size" value="202" />
+              <option name="time" value="7" />
+            </responseState>
+          </option>
+          <option name="workspaceId" value="drafts" />
         </requestHistoryState>
       </list>
     </option>

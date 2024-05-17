@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JetClientState">
+    <option name="draftsState">
+      <draftsState>
+        <option name="requests">
+          <list>
+            <requestState>
+              <option name="id" value="808fbea9-c243-4f20-ba82-a9ddd63a86a8" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft" />
+              <option name="url" value="http://localhost:8081/api/products/P100" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;routingKey&quot;: &quot;delivered-orders&quot;,&#10;  &quot;payload&quot;: {&#10;    &quot;content&quot;: &quot;Order delivered with id=1234&quot;&#10;  }&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="428ad281-89ed-4976-b569-6b0f90ce6a29" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 1" />
+              <option name="url" value="http://localhost:8082/send" />
+            </requestState>
+            <requestState>
+              <option name="body">
+                <bodyState>
+                  <option name="raw" value="{&#10;  &quot;customer&quot;: {&#10;    &quot;name&quot;: &quot;clown&quot;,&#10;    &quot;email&quot;: &quot;email@email.com&quot;,&#10;    &quot;phone&quot;: &quot;99999998&quot;&#10;  },&#10;  &quot;deliveryAddress&quot;: {&#10;    &quot;addressLine0&quot;: &quot;AddressLine1&quot;,&#10;    &quot;addressLine1&quot;: &quot;AddressLine2&quot;,&#10;    &quot;city&quot;: &quot;New Clown Cancelled&quot;,&#10;    &quot;state&quot;: &quot;IdiotState&quot;,&#10;    &quot;zipCode&quot;: &quot;1336&quot;,&#10;    &quot;country&quot;: &quot;Germany&quot;&#10;  },&#10;  &quot;items&quot;: [&#10;    {&#10;      &quot;code&quot;: &quot;P100&quot;,&#10;      &quot;name&quot;: &quot;Product 1&quot;,&#10;      &quot;price&quot;: 34.00,&#10;      &quot;quantity&quot;: 0&#10;    }&#10;  ]&#10;}" />
+                  <option name="type" value="JSON" />
+                </bodyState>
+              </option>
+              <option name="headers">
+                <list>
+                  <headerState>
+                    <option name="key" value="Content-Type" />
+                    <option name="value" value="application/json" />
+                  </headerState>
+                </list>
+              </option>
+              <option name="id" value="3e1e2fec-a9ab-4a3a-a531-da83147b04a2" />
+              <option name="method" value="POST" />
+              <option name="name" value="Draft 2" />
+              <option name="url" value="http://localhost:8082/api/orders" />
+            </requestState>
+            <requestState>
+              <option name="id" value="3ebda8d2-7980-4661-946d-3546d1e72add" />
+              <option name="method" value="GET" />
+              <option name="name" value="Draft 3" />
+              <option name="url" value="http://localhost:8082/api/orders/dd243395-a1bb-4424-8074-f7a497f99168" />
+            </requestState>
+          </list>
+        </option>
+      </draftsState>
+    </option>
+    <option name="id" value="36f2f6d5-ff7e-4cf7-a7aa-39a4fd70caf5" />
+  </component>
+</project>
