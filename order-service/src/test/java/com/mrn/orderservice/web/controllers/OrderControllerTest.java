@@ -6,6 +6,7 @@ import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.Matchers.is;
 
 import com.mrn.orderservice.AbstractIT;
+import com.mrn.orderservice.WithMockOAuth2User;
 import com.mrn.orderservice.data.TestDataFactory;
 import com.mrn.orderservice.domain.models.OrderSummary;
 import io.restassured.common.mapper.TypeRef;
@@ -17,12 +18,18 @@ import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.test.context.jdbc.Sql;
 
+// this is failing for some reason it will not read my
+// sql test-orders.sql file
+// before adding the keycloak implementation it was working fine -- need to look further
+// maybe to remove the code before
+// or test on a specific git commit
 @Sql("/test-orders.sql")
 class OrderControllerTests extends AbstractIT {
 
     @Nested
     class CreateOrderTests {
         @Test
+        @WithMockOAuth2User(username = "user")
         void shouldCreateOrderSuccessfully() {
             mockGetProductByCode("P100", "Product 1", new BigDecimal("25.50"));
             var payload =
@@ -52,6 +59,7 @@ class OrderControllerTests extends AbstractIT {
                                 }
                             """;
             given().contentType(ContentType.JSON)
+                    .header("Authorization", "Bearer " + getToken())
                     .body(payload)
                     .when()
                     .post("/api/orders")
@@ -64,6 +72,7 @@ class OrderControllerTests extends AbstractIT {
         void shouldReturnBadRequestWhenMandatoryDataIsMissing() {
             var payload = TestDataFactory.createOrderRequestWithInvalidCustomer();
             given().contentType(ContentType.JSON)
+                    .header("Authorization", "Bearer " + getToken())
                     .body(payload)
                     .when()
                     .post("/api/orders")
@@ -77,6 +86,7 @@ class OrderControllerTests extends AbstractIT {
         @Test
         void shouldGetOrdersSuccessfully() {
             List<OrderSummary> orderSummaries = given().when()
+                    .header("Authorization", "Bearer " + getToken())
                     .get("/api/orders")
                     .then()
                     .statusCode(200)
@@ -90,12 +100,13 @@ class OrderControllerTests extends AbstractIT {
 
     @Nested
     class GetOrderByOrderNumberTests {
-        final String orderNumber = "order-123";
+        String orderNumber = "order-123";
 
         @Test
         void shouldGetOrderSuccessfully() {
             given().when()
-                    .get("/api/orders/" + orderNumber)
+                    .header("Authorization", "Bearer " + getToken())
+                    .get("/api/orders/{orderNumber}", orderNumber)
                     .then()
                     .statusCode(200)
                     .body("orderNumber", is(orderNumber))

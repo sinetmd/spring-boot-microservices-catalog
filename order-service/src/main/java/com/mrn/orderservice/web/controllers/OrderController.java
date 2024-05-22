@@ -7,6 +7,7 @@ import com.mrn.orderservice.domain.models.CreateOrderRequest;
 import com.mrn.orderservice.domain.models.CreateOrderResponse;
 import com.mrn.orderservice.domain.models.OrderDTO;
 import com.mrn.orderservice.domain.models.OrderSummary;
+import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import java.util.List;
 import org.slf4j.Logger;
@@ -16,6 +17,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/orders")
+@SecurityRequirement(
+        name = "security_auth") // this can be put only on a specific endpoint if we want to use it only in there
 public class OrderController {
     private static final Logger log = LoggerFactory.getLogger(OrderController.class);
 
