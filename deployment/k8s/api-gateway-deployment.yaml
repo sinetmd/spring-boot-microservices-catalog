@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    logging: promtail
+  name: api-gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-gateway
+  template:
+    metadata:
+      annotations:
+        logging: promtail
+      labels:
+        app: api-gateway
+    spec:
+      containers:
+        - env:
+            - name: CATALOG_SERVICE_URL
+              value: http://catalog-service:8081
+            - name: MANAGEMENT_TRACING_ENABLED
+              value: "true"
+            - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+              value: http://tempo:9411
+            - name: ORDER_SERVICE_URL
+              value: http://order-service:8082
+            - name: SPRING_PROFILES_ACTIVE
+              value: docker
+          image: sinetztar/bookstore-api-gateway
+          name: api-gateway
+          ports:
+            - containerPort: 8989
+              protocol: TCP
+          resources:
+            limits:
+              memory: "734003200"
+      restartPolicy: Always

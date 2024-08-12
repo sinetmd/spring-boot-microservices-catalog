@@ -4,17 +4,19 @@ vars:
   GOOS: "{{default OS .GOOS}}"
   MVNW: '{{if eq .GOOS "windows"}}mvnw.cmd{{else}}./mvnw{{end}}'
   DC_DIR: "deployment/docker-compose"
-  INFRA_DC_FILE: "{{.DC_DIR}}/infra.yml"
-  APPS_DC_FILE: "{{.DC_DIR}}/apps.yml"
-  MONITORING_DC_FILE: "{{.DC_DIR}}/monitoring.yml"
+  INFRA_DC_FILE: "{{.DC_DIR}}/infra.yaml"
+  APPS_DC_FILE: "{{.DC_DIR}}/apps.yaml"
+  MONITORING_DC_FILE: "{{.DC_DIR}}/monitoring.yaml"
   SLEEP_CMD: '{{if eq .GOOS "windows"}}timeout{{else}}sleep{{end}}'
+  K8S_PATH: "deployment/k8s"
+  DOCKER_USER: "sinetztar"
 
 tasks:
   default:
     cmds:
       - task: test
   test:
-    deps: [format]
+    deps: [ format ]
     cmds:
       - "{{.MVNW}} clean verify"
 
@@ -23,12 +25,22 @@ tasks:
       - "{{.MVNW}} spotless:apply"
 
   build:
+    desc: "Build docker images with spring boot paketobuildpacks plugins"
     cmds:
       - "{{.MVNW}} -pl catalog-service spring-boot:build-image -DskipTests"
       - "{{.MVNW}} -pl order-service spring-boot:build-image -DskipTests"
       - "{{.MVNW}} -pl notification-service spring-boot:build-image -DskipTests"
       - "{{.MVNW}} -pl api-gateway spring-boot:build-image -DskipTests"
       - "{{.MVNW}} -pl bookstore-webapp spring-boot:build-image -DskipTests"
+
+  push:
+    desc: "Push images to Docker Hub"
+    cmds:
+      - "docker push {{.DOCKER_USER}}/bookstore-api-gateway"
+      - "docker push {{.DOCKER_USER}}/bookstore-notification-service"
+      - "docker push {{.DOCKER_USER}}/bookstore-order-service"
+      - "docker push {{.DOCKER_USER}}/bookstore-catalog-service"
+      - "docker push {{.DOCKER_USER}}/bookstore-webapp"
 
   start_infra:
     cmds:
@@ -61,7 +73,7 @@ tasks:
       - task: start_monitoring
 
   start:
-    deps: [build]
+    #    deps: [build]
     cmds:
       - "docker compose -f {{.INFRA_DC_FILE}} -f {{.APPS_DC_FILE}} up -d"
 
@@ -75,6 +87,43 @@ tasks:
       - task: stop
       - task: sleep
       - task: start
+
+
+  #### k8s commands #####
+  start_k8s:
+    desc: "Start Minikube cluster"
+    cmds:
+      - "minikube start"
+
+  apply_k8s_configs:
+    desc: "Apply All Kubernetes configuration files"
+    cmds:
+      - "kubectl apply -f {{.K8S_PATH}}"
+
+  run_k8s:
+    desc: "Start Minikube cluster and apply Kubernetes Configuration files"
+    cmds:
+      - task: start_k8s
+      - task: apply_k8s_configs
+
+  stop_minikube:
+    desc: "Stop Minikube cluster."
+    prompt: "Careful this command will delete all traces of your minikube cluster. You will have to start minikube again."
+    cmds:
+      - "minikube delete --all"
+
+  remove_k8s_configs:
+    desc: "Remove All Kubernetes configuration files"
+    cmds:
+      - "kubectl delete -f {{.K8S_PATH}}"
+
+  clean_k8s:
+    desc: "Remove all Kubernetes services and stop Minikube"
+    cmds:
+      - task: remove_k8s_configs
+      - task: stop_minikube
+
+  ################################################
 
   sleep:
     vars:

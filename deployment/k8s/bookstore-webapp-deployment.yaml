@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    logging: promtail
+  name: bookstore-webapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bookstore-webapp
+  template:
+    metadata:
+      annotations:
+        logging: promtail
+      labels:
+        app: bookstore-webapp
+    spec:
+      containers:
+        - env:
+            - name: BOOKSTORE_API_GATEWAY_URL
+              value: http://api-gateway:8989
+            - name: MANAGEMENT_TRACING_ENABLED
+              value: "true"
+            - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+              value: http://tempo:9411
+            - name: OAUTH2_SERVER_URL
+              value: http://keycloak:9191
+            - name: SPRING_PROFILES_ACTIVE
+              value: docker
+          image: sinetztar/bookstore-webapp
+          name: bookstore-webapp
+          ports:
+            - containerPort: 8080
+              protocol: TCP
+          resources:
+            limits:
+              memory: "734003200"
+      restartPolicy: Always

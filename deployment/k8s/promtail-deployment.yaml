@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: promtail
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: promtail
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: promtail
+    spec:
+      containers:
+        - args:
+            - --config.file=/etc/promtail/docker-config.yml
+          image: grafana/promtail:3.0.0
+          name: promtail
+          volumeMounts:
+            - mountPath: /etc/promtail/docker-config.yml
+              name: promtail-cm0
+              subPath: docker-config.yml
+            - mountPath: /var/lib/docker/containers
+              name: promtail-claim1
+              readOnly: true
+      restartPolicy: Always
+      volumes:
+        - configMap:
+            items:
+              - key: promtail-docker-config.yml
+                path: docker-config.yml
+            name: promtail-cm0
+          name: promtail-cm0
+        - name: promtail-claim1
+          persistentVolumeClaim:
+            claimName: promtail-claim1
+            readOnly: true

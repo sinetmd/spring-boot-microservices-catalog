@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mailhog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mailhog
+  template:
+    metadata:
+      labels:
+        app: mailhog
+    spec:
+      containers:
+        - image: mailhog/mailhog:v1.0.1
+          name: mailhog
+          ports:
+            - containerPort: 1025
+              protocol: TCP
+            - containerPort: 8025
+              protocol: TCP
+      restartPolicy: Always

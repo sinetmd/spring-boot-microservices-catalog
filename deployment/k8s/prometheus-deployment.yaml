@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prometheus
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prometheus
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: prometheus
+    spec:
+      containers:
+        - args:
+            - --config.file=/etc/prometheus/prometheus.yml
+          image: prom/prometheus:v2.51.2
+          name: prometheus
+          ports:
+            - containerPort: 9090
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /etc/prometheus/prometheus.yml
+              name: prometheus-cm0
+              subPath: prometheus.yml
+      restartPolicy: Always
+      volumes:
+        - configMap:
+            items:
+              - key: prometheus.yml
+                path: prometheus.yml
+            name: prometheus-cm0
+          name: prometheus-cm0

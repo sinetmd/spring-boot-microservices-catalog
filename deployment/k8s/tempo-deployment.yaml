@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tempo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tempo
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: tempo
+    spec:
+      containers:
+        - args:
+            - -config.file
+            - /etc/tempo-config.yml
+          image: grafana/tempo:2.4.1
+          name: tempo
+          ports:
+            - containerPort: 3200
+              protocol: TCP
+            - containerPort: 9411
+              protocol: TCP
+          volumeMounts:
+            - mountPath: /etc/tempo-config.yml
+              name: tempo-cm0
+              subPath: tempo-config.yml
+      restartPolicy: Always
+      volumes:
+        - configMap:
+            items:
+              - key: tempo.yml
+                path: tempo-config.yml
+            name: tempo-cm0
+          name: tempo-cm0

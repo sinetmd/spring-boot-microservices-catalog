@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    logging: promtail
+  name: notification-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: notification-service
+  template:
+    metadata:
+      annotations:
+        logging: promtail
+      labels:
+        app: notification-service
+    spec:
+      containers:
+        - env:
+            - name: DB_PASSWORD
+              value: postgres
+            - name: DB_URL
+              value: jdbc:postgresql://notifications-db:35432/postgres
+            - name: DB_USERNAME
+              value: postgres
+            - name: MAIL_HOST
+              value: mailhog
+            - name: MAIL_PORT
+              value: "1025"
+            - name: MANAGEMENT_TRACING_ENABLED
+              value: "true"
+            - name: MANAGEMENT_ZIPKIN_TRACING_ENDPOINT
+              value: http://tempo:9411
+            - name: RABBITMQ_HOST
+              value: bookstore-rabbitmq
+            - name: RABBITMQ_PASSWORD
+              value: guest
+            - name: RABBITMQ_PORT
+              value: "5672"
+            - name: RABBITMQ_USERNAME
+              value: guest
+            - name: SPRING_PROFILES_ACTIVE
+              value: docker
+          image: sinetztar/bookstore-notification-service
+          name: notification-service
+          ports:
+            - containerPort: 8083
+              protocol: TCP
+          resources:
+            limits:
+              memory: "734003200"
+      restartPolicy: Always

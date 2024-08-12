@@ -59,7 +59,7 @@ public class OrderService {
     private void process(OrderEntity order) {
         try {
             if (canBeDelivered(order)) {
-                log.info("OrderNumber: {} ca be delivered", order.getOrderNumber());
+                log.info("OrderNumber: {} can be delivered", order.getOrderNumber());
                 orderRepository.updateOrderStatus(order.getOrderNumber(), OrderStatus.DELIVERED);
                 orderEventService.save(OrderEventMapper.buildOrderDeliveredEvent(order));
             } else {
